@@ -893,3 +893,56 @@ footer p {
     color: white;
     border-color: var(--blue);
 }
+/* =========================
+   CV SECTION
+========================= */
+
+.cv-section {
+    text-align: center;
+}
+
+.cv-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35px;
+}
+
+.cv-card {
+    width: 100%;
+    max-width: 550px;
+    padding: 40px 30px;
+    background: linear-gradient(145deg, #10243b, #0c1b2e);
+    border: 1px solid rgba(66, 200, 255, 0.25);
+    border-radius: 18px;
+    box-shadow: 0 10px 35px rgba(0, 0, 0, 0.25);
+    transition: 0.3s ease;
+}
+
+.cv-card:hover {
+    transform: translateY(-8px);
+    border-color: #42c8ff;
+    box-shadow: 0 15px 40px rgba(22, 133, 255, 0.15);
+}
+
+.cv-icon {
+    font-size: 55px;
+    margin-bottom: 20px;
+}
+
+.cv-card h3 {
+    color: #ffffff;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.cv-card p {
+    color: #b8c7d9;
+    line-height: 1.8;
+    margin-bottom: 25px;
+}
+
+.cv-card .btn-primary {
+    display: inline-block;
+    text-decoration: none;
+}
